@@ -1,4 +1,4 @@
-# Algorithms [![Build Status](https://travis-ci.org/arnauddri/algorithms.svg?branch=master)](https://travis-ci.org/arnauddri/algorithms)
+# Algorithms [![Tests](https://github.com/Roy19/algorithms-1/actions/workflows/go.yml/badge.svg)](https://github.com/Roy19/algorithms-1/actions/workflows/go.yml)
 
 Classic algorithms and data structures implemented in Go. Not for production use, it is mostly an attempt to get comfortable both with Go and key CS concepts.
 
