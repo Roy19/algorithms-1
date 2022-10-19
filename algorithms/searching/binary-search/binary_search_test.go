@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestSearch(t *testing.T) {
+func TestSearchWithInts(t *testing.T) {
 	sorted := make([]int, 10000)
 
 	for i := 0; i < 10000; i++ {

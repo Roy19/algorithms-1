@@ -1,8 +1,10 @@
 package bs
 
-import ()
+import (
+	"golang.org/x/exp/constraints"
+)
 
-func search(sortedArray []int, el int) int {
+func search[T constraints.Ordered](sortedArray []T, el T) int {
 	init, end := 0, len(sortedArray)-1
 
 	for init <= end {
